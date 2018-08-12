@@ -14,12 +14,10 @@ else
       min = key
     
     else 
-    if value < min
+      if value < min
       min_value = value
       min = key
-      
-  end
-end
-  
-
+      end
+    end
+    end
 end
