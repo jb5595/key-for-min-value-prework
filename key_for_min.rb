@@ -20,4 +20,5 @@ else
       end
     end
     end
+    min
 end
