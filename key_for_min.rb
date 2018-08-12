@@ -19,5 +19,7 @@ else
       min = key
       end
     end
+  end
+end 
     min
 end
