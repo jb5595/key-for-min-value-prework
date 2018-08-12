@@ -15,7 +15,6 @@ else
     
     else 
       if value < min
-        binding.pry
       min_value = value
       min = key
       end
