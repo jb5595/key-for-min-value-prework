@@ -14,7 +14,7 @@ else
       min = key
     
     else 
-      if value < min
+      if value < min_value
       min_value = value
       min = key
       end
