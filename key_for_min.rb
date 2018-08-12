@@ -7,6 +7,7 @@ def key_for_min_value(name_hash)
 
   else 
     min = ""
+    min_value = 0.0
     counter = 0
     name_hash.collect do |key, value|
 
