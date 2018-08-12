@@ -13,7 +13,7 @@ else
       min_value = value
       min = key
     
-  else 
+    else 
     if value < min
       min_value = value
       min = key
