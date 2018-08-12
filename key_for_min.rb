@@ -9,17 +9,13 @@ else
   min = ""
   counter = 0
   name_hash.collect do |key, value|
-    if counter == 0 
+
+      if value < min_value || counter == 0
       min_value = value
       min = key
-      # counter = counter +1
-    
-    else 
-      if value < min_value
-      min_value = value
-      min = key
+      counter = counter + 1
       end
-    end
+    
   end
 end 
     min
