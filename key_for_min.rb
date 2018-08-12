@@ -6,9 +6,9 @@ def key_for_min_value(name_hash)
     return nil 
 
   else 
-  min = ""
-  counter = 0
-  name_hash.collect do |key, value|
+    min = ""
+    counter = 0
+    name_hash.collect do |key, value|
 
       if value < min_value || counter == 0
       min_value = value
@@ -16,7 +16,7 @@ def key_for_min_value(name_hash)
       counter = counter + 1
       end
     
-  end
-end 
+    end
+  end 
     min
 end
