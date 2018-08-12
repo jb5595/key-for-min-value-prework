@@ -12,6 +12,7 @@ else
     if counter == 0 
       min_value = value
       min = key
+      counter = counter +1
     
     else 
       if value < min_value
@@ -19,7 +20,7 @@ else
       min = key
       end
     end
-    counter+=1
+
   end
   
 end 
